@@ -187,11 +187,13 @@ body {
 
 .section-heading h4 em {
   font-style: normal;
-  color: #4b8ef1;
+  background: linear-gradient(90deg, #8e44ad, #f4d03f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .section-heading img {
-  width: 45px;
+ 
   height: 2px;
 }
 
@@ -207,10 +209,10 @@ body {
 .white-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #4b8ef1 !important;
+  color: #f1c54b !important;
   text-transform: capitalize;
   font-size: 15px;
-  background-color: #fff;
+  background-color: #e6ad45;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -223,7 +225,7 @@ body {
 }
 
 .white-button a:hover {
-  background-color: #4b8ef1;
+  background-color: #f1e94b;
   color: #fff !important;
 }
 
@@ -244,11 +246,11 @@ body {
 .gradient-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #fff !important;
+  color: #fff;
   text-transform: capitalize;
   font-size: 15px;
-  background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: rgb(163, 45, 213);
+  background: linear-gradient(80deg, #b647e5, #f3cc31) !important;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -256,32 +258,42 @@ body {
 }
 
 .gradient-button a:hover {
-  color: #fff !important;
-  background: rgb(19,175,240);
-  background: linear-gradient(105deg, rgba(91,104,235,1) 0%, rgba(40,225,253,1) 100%);
+  background: linear-gradient(90deg, #8e44ad, #f4d03f);
+  -webkit-background-clip: text  !important;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #8e44ad;
 }
 
 .border-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
-  color: #4b8ef1 !important;
-  border: 1px solid #4b8ef1;
+  background: linear-gradient(90deg, #8e44ad, #f4d03f); /* Gradient for text */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Transparent text to show gradient */
+  border: 1px solid #8e44ad; /* Border with purple tone */
   text-transform: capitalize;
   font-size: 15px;
-  display: inline-block;
-  background-color: #fff;
+  background-color: #fff; /* Initial background color */
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
-  transition: all .5s;
+  transition: all 0.5s ease; /* Smooth transition effect */
+  text-decoration: none; /* Removes underline */
 }
 
 .border-button a:hover {
-  background-color: #4b8ef1;
-  color: #fff !important;
+  background: linear-gradient(90deg, #8e44ad, #f4d03f); /* Gradient background on hover */
+  color: #fff; /* Text color changes to white */
+  -webkit-background-clip: unset; /* Reset background clip */
+  -webkit-text-fill-color: #fff; /* Text becomes white */
+  border: 1px solid #f4d03f; /* Optional: change border color on hover */
 }
-
-
+.codefreeg {
+  background: linear-gradient(90deg, #be28ff, #ffd429);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold; /* Optional for emphasis */
+}
 /* 
 ---------------------------------------------
 header
@@ -317,7 +329,7 @@ header
   position: absolute;
   width: 100%;
   height: 1px;
-  background-color: #4b8ef1;
+  background: linear-gradient(90deg, #8e44ad, #f4d03f);
   content: '';
   left: 50%;
   bottom: -20px;
@@ -330,7 +342,6 @@ header
 
 .header-area {
   background-color: transparent;
-  border-bottom: 1px solid rgba(42,42,42,0.2);
   position: absolute;
   left: 0px;
   right: 0px;
@@ -428,7 +439,8 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #4b8ef1!important;
+  background: linear-gradient(90deg, rgb(190, 40, 255), rgb(255, 212, 41)) text;
+  -webkit-text-fill-color: transparent;
 }
 
 .header-area .main-nav .nav li:last-child a.active {
@@ -437,7 +449,6 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #4b8ef1!important;
   opacity: 1;
 }
 
@@ -499,7 +510,6 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #4b8ef1!important;
   padding-left: 25px;
 }
 
@@ -894,7 +904,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 250px 120px 150px 120px;
+  padding: 100px 60px 200px 120px;
   position: relative;
   overflow: hidden;
 }
@@ -920,14 +930,14 @@ Banner Style
   z-index: 2;
   position: relative;
   font-weight: 700;
-  line-height: 70px;
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 20px;
 }
 
 .main-banner .left-content p {
   margin-bottom: 45px;
-  color: #2a2a2a;
+  color: #372727;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -936,12 +946,19 @@ Banner Style
 }
 
 .main-banner .left-content .white-button {
-  display: inline-block;
+  /* display: inline-block; */
+  text-align: end;
+  margin-right: 30px;
+  
+}
+.white-button h5{
+  margin-bottom: 10px;
 }
 
 .main-banner .right-image {
   text-align: center;
   position: relative;
+  left: 20;
   z-index: 20;
 }
 
@@ -950,7 +967,7 @@ Banner Style
 }
 
 .main-banner .left-content .white-button a {
-  background-color: #4b8ef1;
+  background: linear-gradient(90deg, #8e44ad, #f4d03f);
   color: #fff !important;
 }
 
@@ -978,7 +995,6 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: url(../images/services-left-dec.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -988,9 +1004,11 @@ Services Style
   z-index: 0;
 }
 
+.premium-pack{
+  z-index: 999;
+}
 .services:before {
-  content: '';
-  background-image: url(../images/services-right-dec.png);
+  content: '';;
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -1017,7 +1035,8 @@ Services Style
   background-color: #fff;
   border-radius: 10px;
   border-top-right-radius: 50px;
-  transition: all .3s;
+  transition: all linear .3s;
+  margin-bottom: 20px;
 }
 
 .service-item .icon {
@@ -1154,7 +1173,6 @@ About Us
 }
 
 .about-us:after {
-  background-image: url(../images/about-bg.jpg);
   width: 777px;
   height: 1132px;
   content: '';
@@ -1390,7 +1408,7 @@ The Clients
 }
 
 .pricing-item-regular ul li {
-  color: #4b8ef1;
+  color: #e53dccd0;
   font-size: 15px;
   margin-bottom: 15px;
 }
@@ -1422,7 +1440,7 @@ The Clients
 
 .pricing-item-pro:before {
   position: absolute;
-  top: 0;
+  top: -32px;
   left: 0;
   background-image: url(../images/pro-table-top.png);
   z-index: 0;
@@ -1467,7 +1485,7 @@ The Clients
 }
 
 .pricing-item-pro ul li {
-  color: #4b8ef1;
+  color: #e53dccd0;
   font-size: 15px;
   margin-bottom: 15px;
 }
@@ -1614,7 +1632,7 @@ footer #search input {
 footer #search button {
   height: 46px;
   border-radius: 23px;
-  border: 1px solid #fff;
+  border: 1px solid #8e44ad;
   background-color: transparent;
   color: #fff;
   width: 100%;
@@ -1962,8 +1980,7 @@ responsive
     z-index: 2;
     position: relative;
     font-weight: 700;
-    line-height: 70px;
-    font-size: 50px;
+    font-size: 45px;
     margin-bottom: 20px;
   }
 

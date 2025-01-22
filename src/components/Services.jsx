@@ -9,7 +9,7 @@ const Services = () => {
           <div className="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4>Amazing <em>Services &amp; Features</em> for you</h4>
             <img src="assets/images/heading-line-dec.png" alt="" />
-            <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more information.</p>
+            <p>Offering a Wide Range of Outstanding Services and Cutting-Edge Features to Transform Your Digital Vision into Reality</p>
           </div>
         </div>
       </div>
@@ -19,8 +19,8 @@ const Services = () => {
         <div className="col-lg-3">
           <div className="service-item first-service">
             <div className="icon"></div>
-            <h4>App Maintenance</h4>
-            <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+            <h4>Custom Website Development</h4>
+            <p>Tailor-made solutions for your unique business needs.</p>
             <div className="text-button">
               <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
             </div>
@@ -29,8 +29,8 @@ const Services = () => {
         <div className="col-lg-3">
           <div className="service-item second-service">
             <div className="icon"></div>
-            <h4>Rocket Speed of App</h4>
-            <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.</p>
+            <h4>E-Commerce Development</h4>
+            <p>Build user-friendly online stores to boost your sales.</p>
             <div className="text-button">
               <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
             </div>
@@ -39,8 +39,8 @@ const Services = () => {
         <div className="col-lg-3">
           <div className="service-item third-service">
             <div className="icon"></div>
-            <h4>Multi Workflow Idea</h4>
-            <p>If this template is beneficial for your work, please support us <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
+            <h4>Responsive Design</h4>
+            <p>Websites optimized for all devices, from mobile to desktop.</p>
             <div className="text-button">
               <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
             </div>
@@ -49,13 +49,34 @@ const Services = () => {
         <div className="col-lg-3">
           <div className="service-item fourth-service">
             <div className="icon"></div>
-            <h4>24/7 Help &amp; Support</h4>
-            <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
+            <h4>Website Maintenance</h4>
+            <p>Keep your website updated, secure, and bug-free.</p>
             <div className="text-button">
               <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
+        <div className="col-lg-3">
+          <div className="service-item fourth-service">
+            <div className="icon"></div>
+            <h4>SEO Optimization</h4>
+            <p>Improve your website’s visibility and search rankings.</p>
+            <div className="text-button">
+              <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3">
+          <div className="service-item fourth-service">
+            <div className="icon"></div>
+            <h4>Web Application Development</h4>
+            <p>Feature-rich, scalable, and secure web apps for your business.</p>
+            <div className="text-button">
+              <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+       
       </div>
     </div>
   </div>

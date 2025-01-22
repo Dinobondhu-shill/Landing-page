@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../public/codefree.png'
 
 const Newsletter = () => {
   return (
@@ -31,9 +32,9 @@ const Newsletter = () => {
         <div className="col-lg-3">
           <div className="footer-widget">
             <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-            <p><a href="#">010-020-0340</a></p>
-            <p><a href="#">info@company.co</a></p>
+            <p>Mirpur-10, Dhaka</p>
+            <p><a type='tel' href='+8801937392767'>+8801937392767</a></p>
+            <p><a href="#">info@codefreeg.com</a></p>
           </div>
         </div>
         <div className="col-lg-3">
@@ -74,15 +75,14 @@ const Newsletter = () => {
           <div className="footer-widget">
             <h4>About Our Company</h4>
             <div className="logo">
-              <img src="assets/images/white-logo.png" alt="" />
+              <img src={logo} alt="" />
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
           </div>
         </div>
         <div className="col-lg-12">
           <div className="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved. 
-          <br />Design: <a href="https://templatemo.com/" target="_blank" title="css templates" >TemplateMo</a></p>
+            <p>Copyright © 2025 Codefreeg. All Rights Reserved. </p>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Nav = () => {
               <nav className="main-nav">
                 {/* ***** Logo Start ***** */}
                 <a href="index.html" className="logo">
-                  <img src="assets/images/logo.png" alt="Chain App Dev" />
+                  <img src="/public/codefree.png" alt="logo" width={30} height={70} />
                 </a>
                 {/* ***** Logo End ***** */}
                 {/* ***** Menu Start ***** */}
@@ -27,9 +27,7 @@ const Nav = () => {
                   <li className="scroll-to-section">
                     <a href="#about">About</a>
                   </li>
-                  <li className="scroll-to-section">
-                    <a href="#clients">Client</a>
-                  </li>
+                 
                   <li className="scroll-to-section">
                     <a href="#pricing">Pricing</a>
                   </li>
