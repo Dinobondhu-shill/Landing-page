@@ -77,7 +77,7 @@ const Newsletter = () => {
             <div className="logo">
               <img src={logo} alt="" />
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p><span className='codefreeg'> CodeFreeg </span> is a fast growing web solution based it company of Bangladesh</p>
           </div>
         </div>
         <div className="col-lg-12">

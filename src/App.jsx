@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Newsletter from './components/Newsletter'
 import Pricing from './components/Pricing'
 import Services from './components/Services'
+import Team from './components/Team'
 import Home from './Home'
 // import Preloader from './components/Preloader'
 
@@ -20,6 +21,7 @@ function App() {
     <About />
     <Client />
     <Pricing />
+    <Team />
     <Newsletter />
     </>
   )

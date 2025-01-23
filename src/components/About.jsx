@@ -16,22 +16,27 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6">
               <div className="box-item">
-                <h4><a href="#">Maintance Problems</a></h4>
+                <h4><a href="#">Website Development</a></h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="box-item">
+                <h4><a href="#">Digital Marketing</a></h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="box-item">
+                <h4><a href="#">Website Customization</a></h4>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="box-item">
+                <h4><a href="#">Graphics Design</a></h4>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="box-item">
                 <h4><a href="#">24/7 Support &amp; Help</a></h4>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="box-item">
-                <h4><a href="#">Fixing Issues About</a></h4>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="box-item">
-                <h4><a href="#">Co. Development</a></h4>
               </div>
             </div>
             <div className="col-lg-12">

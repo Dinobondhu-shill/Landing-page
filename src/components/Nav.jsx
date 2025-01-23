@@ -35,7 +35,7 @@ const Nav = () => {
                     <a href="#newsletter">Newsletter</a>
                   </li>
                   <li>
-                    <div className="gradient-button">
+                    <div className="sign-in">
                       <a id="modal_trigger" href="#modal"
                        onClick={(e) => {
                         e.preventDefault();

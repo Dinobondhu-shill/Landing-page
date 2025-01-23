@@ -113,6 +113,9 @@ html, body {
 a {
   text-decoration: none !important;
 }
+a:hover{
+  color:#8e44ad !important;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
@@ -175,6 +178,9 @@ body {
 .section-heading {
   position: relative;
   z-index: 2;
+}
+.heading-text{
+  color:white !important; 
 }
 
 .section-heading h4 {
@@ -242,15 +248,17 @@ body {
 .text-button a:hover i {
   margin-left: 8px;
 }
-
+a{
+  color: rgb(163, 45, 213);
+}
 .gradient-button a {
   display: inline-block !important;
   padding: 10px 20px !important;
   color: #fff;
   text-transform: capitalize;
   font-size: 15px;
-  background: rgb(163, 45, 213);
-  background: linear-gradient(80deg, #b647e5, #f3cc31) !important;
+  
+  -webkit-text-fill-color: transparent;
   border-radius: 23px;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -260,6 +268,7 @@ body {
 .gradient-button a:hover {
   background: linear-gradient(90deg, #8e44ad, #f4d03f);
   -webkit-background-clip: text  !important;
+      -webkit-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   border: 1px solid #8e44ad;
 }
@@ -401,10 +410,6 @@ header
   padding-right: 20px;
 }
 
-.header-area .main-nav .nav li:nth-child(6) {
-  padding-right: 0px;
-  padding-left: 40px;
-}
 
 .header-area .main-nav .nav li:last-child a ,
 .background-header .main-nav .nav li:last-child a,
@@ -413,6 +418,7 @@ header
   padding: 0px 20px !important;
   font-weight: 400;
 }
+
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover,
@@ -440,7 +446,7 @@ header
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   background: linear-gradient(90deg, rgb(190, 40, 255), rgb(255, 212, 41)) text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;;
 }
 
 .header-area .main-nav .nav li:last-child a.active {
@@ -1135,12 +1141,22 @@ About Us
 
 .about-us .box-item {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.07);
-  padding: 10px 30px;
+  padding: 10px 0 10px 10px;
   background-color: #fff;
   border-radius: 40px;
   margin-bottom: 30px;
 }
 
+.about-us .box-item h4 {
+text-align: center;
+}
+#team{
+  margin: 30px 0;
+}
+#team .section-heading h4{
+ text-align: center;
+
+}
 .about-us .box-item h4 a {
   font-size: 20px;
   font-weight: 700;
@@ -1249,7 +1265,7 @@ The Clients
 .the-clients .naccs .menu div.active i,
 .the-clients .naccs .menu div.active span.rating,
 .the-clients .naccs .menu div.active .thumb {
-  color: #4b8ef1;
+  color: #fadb2e;
 }
 
 .the-clients ul.nacc {
@@ -1641,7 +1657,7 @@ footer #search button {
 
 footer #search button:hover {
   background-color: #fff;
-  color: #4b8ef1;
+  color: #bd0bd8;
 }
 
 .footer-widget .logo img {
